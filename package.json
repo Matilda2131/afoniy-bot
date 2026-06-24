@@ -1,0 +1,12 @@
+{
+  "name": "afoniy-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot РРЅР¶РµРЅРµСЂ РђС„РѕРЅСЏ",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
