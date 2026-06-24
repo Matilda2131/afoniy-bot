@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: afoniy-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: TG_BOT_TOKEN
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OWNER_CHAT_ID
+        sync: false
